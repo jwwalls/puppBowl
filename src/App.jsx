@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import Topbar from './components/topbar'
-import './App.css'
+//import RRoutes from "./components/Routes";
+import "./App.css";
+import Nav from "./components/Nav";
+import RRoutes from "./components/Routes";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-<div>
-  <Topbar  />
-  </div>
-  )
+    <div className="App">
+      <Nav />
+      <RRoutes />
+    </div>
+  );
 }
 
-export default App
+export default App;
