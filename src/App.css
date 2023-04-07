@@ -139,24 +139,31 @@ p {
 .bigPoster {
   background-image: '/posters/main.png';
 }
-.headerImg{
+.headerImg img{
+  height: 200px;
+  width: 100%;
+  
+}
+.posterBox img{
+  height: 470px;
   
 }
 .mainBody{
   display: flex;
   
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 .posterBox{
   display: flex;
   flex-direction: column;
+  width: 30%;
 }
 .poster1{
   border: 1px white solid;
-  height: 50%;
+  
 }
 .poster2{
   border: 1px white solid;
-  height: 50%;
+  
 }

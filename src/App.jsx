@@ -14,8 +14,8 @@ function App() {
       <div className="mainBody">
         <RRoutes />
         <div className="posterBox">
-        <div className="poster1"><img src="/src/components/posters/poster1.png" alt="" />{" "}</div>
-        <div className="poster2" ><img src="/src/components/posters/poster2.png" alt="" />{" "}</div>
+       <img  src="/src/components/posters/poster1.png" alt="" />{" "}
+        <img src="/src/components/posters/poster2.png" alt="" />{" "}
         </div>
         
       </div>
