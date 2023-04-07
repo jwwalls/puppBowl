@@ -2,15 +2,15 @@
 .AllPuppies{
   display: flex;
   flex-wrap: wrap;
-  max-width: 380px;
+  max-width: 1480px;
 }
 
 .MainCard{
   background-color:rgb(244, 237, 237);  
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   color: gray;
-  font-size: 8px;
+  font-size: 16px;
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100px;
+  height: 200px;
   
   
 }
@@ -60,7 +60,7 @@ body{
   
 }
 img{
-  width: 30px;
-  height: auto;
+  width: 100px;
+  height: 100px;
   
 }

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import PuppieCard from "./puppieCard";
 import { fetchAllPuppies } from "../API/fetchPuppys";
+import Form from "./Form";
 import "../App.css";
 
 const Home = () => {
@@ -16,7 +17,9 @@ const Home = () => {
   }, []);
 
   return (
+   
     <div className="AllPuppies">
+        
       {players.map(({ id, name, breed, status, imageUrl }) => (
         <div key={id}>
           <PuppieCard
