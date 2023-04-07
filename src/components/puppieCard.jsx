@@ -7,15 +7,25 @@ const PuppieCard = ({ id, name, breed, imageUrl }) => {
   return (
     <div className="MainCard">
       <div className="nameId">
-        <h6>{id}</h6>
-        <h1>{name}</h1>
+      <img src={imageUrl} alt="" />
+        <div className="dogId">        
+        <div className="doggoName"> {name}</div>
+        <div >Id: {id}</div> 
+        </div>      
+        
       </div>
-
-      <div>
-        <h3>{breed}</h3>
-        <img src={imageUrl} alt="" />
+     
+      
+      <div className="breedInfo">
+        <div>
+            <div>Breed Information</div>
+            <div>{breed}</div>
+        </div>
+        
+        <button  className="daButton" onClick={() => nav(`/${id}`)}>More Info</button>
       </div>
-      <button onClick={() => nav(`/${id}`)}>More Info</button>
+      
+     
     </div>
   );
 };

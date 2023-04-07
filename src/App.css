@@ -1,3 +1,4 @@
+
 .AllPuppies{
   display: flex;
   flex-wrap: wrap;
@@ -5,21 +6,52 @@
 }
 
 .MainCard{
-  background-color:rgb(244, 237, 237);
-  align-items: center;
+  background-color:rgb(244, 237, 237);  
   width: 150px;
   height: 150px;
   color: gray;
   font-size: 8px;
-  margin: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
   
 }
 .nameId{
   display: flex;
-  align-content: space-between;
-  justify-content: space-between;
   flex-direction: row;
   width: 100%;
+  border-bottom: 1px solid black;
+  gap: 5px;
+  margin-top:  1px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.breedInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  
+  
+}
+.doggoName{
+  font-size: 20px;
+}
+.daButton{
+  margin-right: 1px;
+  margin-left: 1px;
+  margin-bottom: 1px;
+}
+.dogId{
+  display: flex;
+  flex-direction: column;  
+    
+  
+}
+.dog{
+  background-color: #ddd;
+  padding: 0px;
+  margin-bottom: 0px;
 }
 body{
   display: flex;
@@ -28,7 +60,7 @@ body{
   
 }
 img{
-  width:40px;
-  height: 40px;
-  border-radius: 50%;
+  width: 30px;
+  height: auto;
+  
 }
