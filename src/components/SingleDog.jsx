@@ -17,7 +17,7 @@ const SingleDog = () => {
       const {
         data: { player },
       } = await response.json();
-
+      console.log(player);
       setPlayer(player);
     };
 
@@ -34,6 +34,7 @@ const SingleDog = () => {
         src={player.imageUrl}
       />
       <h4>{player.name}</h4>
+     
       <button
         onClick={async () => {
           //await deletePuppyById(player.id);

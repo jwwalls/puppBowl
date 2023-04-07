@@ -6,8 +6,8 @@ import Form from "./Form";
 //
 const Nav = () => {
   return (
-    <div>
-      <Link to="/">Home</Link>
+    <div className="headerL" >
+      <Link to="/">Puppy Bowl</Link>
       <Form />
     </div>
   );
