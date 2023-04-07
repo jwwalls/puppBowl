@@ -10,6 +10,7 @@ const Home = () => {
     const getAllPuppies = async () => {
       const players = await fetchAllPuppies();
       setPlayers(players);
+      
     };
     getAllPuppies();
   }, []);

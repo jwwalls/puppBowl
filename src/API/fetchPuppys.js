@@ -7,7 +7,6 @@ export const fetchAllPuppies = async () => {
     const {
       data: { players },
     } = await response.json();
-    console.log(players);
     return players;
   } catch (error) {
     console.error(error);
@@ -20,7 +19,6 @@ export const fetchPuppy = async (id) => {
     const {
       data: { player },
     } = await response.json();
-    console.log(player);
     return player;
   } catch (err) {
     console.error(err);
