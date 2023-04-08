@@ -7,8 +7,12 @@ import Form from "./Form";
 const Nav = () => {
   return (
     <div className="headerL" >
-      <Link to="/">Puppy Bowl</Link>
+      <img src="/src/components/posters/logo.png" alt="logo" />
+      <Link class="Navlink"to="/">PUPPY BOWL</Link>
+      <p class="NavSlogan">Love Care Friend Play All At Pupply Bowl</p>
+      <div class="SearchBar">
       <Form />
+      </div>
     </div>
   );
 };
