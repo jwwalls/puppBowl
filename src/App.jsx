@@ -16,10 +16,7 @@ function App() {
             </div>
             <div className="mainBody">
                 <RRoutes />
-                <div className="posterBox">
-                    <img src="/src/components/posters/poster1.png" alt="" />{" "}
-                    <img src="/src/components/posters/poster2.png" alt="" />{" "}
-                </div>
+                
             </div>
             <div className="footer">
                 <Footer />

@@ -31,7 +31,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 200px;
+  width: 100%;
+  padding: 5px;
+  
+  height: 80%;
+  
   
   
 }
@@ -135,7 +139,12 @@ p {
 .headerL{
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+  
+}
+.inputForm{
+  display: flex;
+  align-items: center;
 }
 .bigPoster {
   background-image: '/posters/main.png';
@@ -159,6 +168,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 20%;
+  gap: 2px;
 }
 .poster1{
   border: 1px white solid;
@@ -228,12 +238,15 @@ p {
   }
 }
 .Navbar img{
-  width: 70px;
+  width: 40px;
   margin-left: 10%;
   margin-top: 10px;
 }
 .Navlink{
-  font-size: 70px;
+  display: flex;
+  width: 300px;
+  font-size: 50px;
+  align-items: center;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
 }
@@ -242,4 +255,21 @@ color: #948c8c;
 }
 .SearchBar{
   margin-left: 20%;
+}
+.homeContainer{
+  display: flex;
+}
+.formCon{
+  display: flex;
+  
+  height: 100%;
+  
+  gap: 5px;
+}
+.logoBanner{
+  display: flex;
+  
+  gap: 10px;
+  align-items: center;
+
 }

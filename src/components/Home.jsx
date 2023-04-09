@@ -17,9 +17,9 @@ const Home = () => {
 
   return (
    
-    <div className="AllPuppies">
-        
-      {players.map(({ id, name, breed, status, imageUrl }) => (
+    <div className="homeContainer">
+        <div className="AllPuppies">
+        {players.map(({ id, name, breed, status, imageUrl }) => (
         <div key={id}>
           <PuppieCard
             id={id}
@@ -30,6 +30,12 @@ const Home = () => {
           />
         </div>
       ))}
+        </div>
+     
+      <div className="posterBox">
+                    <img src="/src/components/posters/poster1.png" alt="" />{" "}
+                    <img src="/src/components/posters/poster2.png" alt="" />{" "}
+                </div>
     </div>
   );
 };

@@ -13,9 +13,9 @@ const Form = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="searchBy">Search by: </label>
+    <div >
+      <form className="formCon" onSubmit={handleSubmit}>
+        <label className="inputForm" htmlFor="searchBy">Search by: </label>
         <select
           value={searchBy}
           onChange={(e) => setSearchBy(e.target.value)}
@@ -24,6 +24,7 @@ const Form = () => {
           <option value="breed">Breed</option>
         </select>
         <input
+        
           type="text"
           placeholder={`Search by ${searchBy}`}
           value={searchTerm}

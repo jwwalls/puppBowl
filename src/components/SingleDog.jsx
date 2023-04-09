@@ -33,16 +33,12 @@ const SingleDog = () => {
         }}
         src={player.imageUrl}
       />
-      <h4>{player.name}</h4>
+      <h4>Name: {player.name}</h4>
+      <h4>Breed: {player.breed}</h4>
+      <h4>Field Status: {player.status}</h4>
+      <h4>ID: {player.id}</h4>
      
-      <button
-        onClick={async () => {
-          //await deletePuppyById(player.id);
-          //navigate(`/`);
-        }}
-      >
-        Delete Puppy
-      </button>
+      
     </div>
   );
 };
